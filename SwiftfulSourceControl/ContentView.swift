@@ -41,14 +41,14 @@ struct ContentView: View {
                 VStack {
                     ForEach(0..<20) { _ in
                         VStack {
-                            Image(systemName: "globe.fill")
+                            Image(systemName: "globe")
                                 .font(.largeTitle)
                                 .foregroundStyle(.tint)
                             Text("Some New Title!")
                             
                             Button("Click me") {
                                 
-                            
+                            }
                             
                             Rectangle()
                         }
